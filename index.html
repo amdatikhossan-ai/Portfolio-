@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MD Atik Hossan Apple | Portfolio</title>
+  <meta name="description" content="Official portfolio website of MD Atik Hossan Apple.">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="nature-background">
+  <div class="sun"></div>
+
+  <div class="bird bird-1">🕊️</div>
+  <div class="bird bird-2">🐦</div>
+  <div class="bird bird-3">🕊️</div>
+
+  <div class="leaf leaf-1"></div>
+  <div class="leaf leaf-2"></div>
+  <div class="leaf leaf-3"></div>
+
+  <div class="nature-overlay"></div>
+  </div>
+  !-- Nature Background -->
+<div class="nature-background">
+  <div class="sun"></div>
+  <div class="bird bird-1">🕊️</div>
+  <div class="bird bird-2">🐦</div>
+  <div class="bird bird-3">🕊️</div>
+
+  <div class="leaf leaf-1">🍃</div>
+  <div class="leaf leaf-2">🍃</div>
+  <div class="leaf leaf-3">🍃</div>
+
+  <div class="nature-overlay"></div>
+</div>
+
+<!-- Bird Sound -->
+<audio id="birdSound" loop>
+  <source src="sounds/birds.mp3" type="audio/mpeg">
+</audio>
+
+<button id="soundButton" class="sound-button" aria-label="Toggle sound">
+    <span class="sound-icon">🔇</span>
+    <span class="sound-waves">
+        <i></i>
+        <i></i>
+        <i></i>
+    </span>
+</button>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="container nav-container">
+
+      <a href="#home" class="logo">
+        <span>A</span>t i k
+      </a>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
+
+      <nav id="navMenu">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+
+    <div class="container hero-content">
+
+      <div class="hero-text">
+
+        <p class="small-title">HELLO, I'M</p>
+
+        <h1>
+          MD Atik Hossan
+          <span>Apple</span>
+        </h1>
+
+        <h2>
+          I'm a <span id="typing"></span>
+        </h2>
+
+        <p class="hero-description">
+          A passionate learner interested in technology,
+          creative work, digital content and new ideas.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+
+      </div>
+
+      <div class="hero-image">
+        <div class="image-circle">
+          <img src="images/profile.jpg" alt="MD Atik Hossan Apple">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+
+    <div class="container">
+
+      <div class="section-title">
+        <p>WHO I AM</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-image">
+          <img src="images/profile.jpg" alt="MD Atik Hossan Apple">
+        </div>
+
+        <div class="about-text">
+
+          <h3>Student & Young Creative</h3>
+
+          <p>
+            I am MD Atik Hossan Apple, a young learner who enjoys
+            discovering new technologies, creative ideas and digital
+            skills.
+          </p>
+
+          <p>
+            My goal is to continuously learn, improve my skills and
+            create meaningful digital projects.
+          </p>
+
+          <div class="info-grid">
+
+            <div>
+              <strong>Name:</strong>
+              <span>MD Atik Hossan Apple</span>
+            </div>
+
+            <div>
+              <strong>Nationality:</strong>
+              <span>Bangladeshi</span>
+            </div>
+
+            <div>
+              <strong>Education:</strong>
+              <span>Student</span>
+            </div>
+
+            <div>
+              <strong>Location:</strong>
+              <span>Bangladesh</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section dark-section">
+
+    <div class="container">
+
+      <div class="section-title">
+        <p>WHAT I CAN DO</p>
+        <h2>My <span>Skills</span></h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>Web Design</h3>
+          <p>Creating responsive and modern websites.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>Creative Design</h3>
+          <p>Creating visual content and digital designs.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🎬</div>
+          <h3>Video Editing</h3>
+          <p>Creating engaging social media videos.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">📱</div>
+          <h3>Content Creation</h3>
+          <p>Creating content for digital platforms.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+
+    <div class="container">
+
+      <div class="section-title">
+        <p>MY WORK</p>
+        <h2>Latest <span>Projects</span></h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+
+          <div class="project-image">
+            <div class="project-placeholder">PROJECT 01</div>
+          </div>
+
+          <div class="project-content">
+            <h3>Personal Portfolio</h3>
+
+            <p>
+              A modern responsive portfolio website.
+            </p>
+
+            <a href="#" class="project-link">
+              View Project →
+            </a>
+          </div>
+
+        </div>
+
+
+        <div class="project-card">
+
+          <div class="project-image">
+            <div class="project-placeholder">PROJECT 02</div>
+          </div>
+
+          <div class="project-content">
+            <h3>Creative Website</h3>
+
+            <p>
+              A creative website project built with HTML,
+              CSS and JavaScript.
+            </p>
+
+            <a href="#" class="project-link">
+              View Project →
+            </a>
+          </div>
+
+        </div>
+
+
+        <div class="project-card">
+
+          <div class="project-image">
+            <div class="project-placeholder">PROJECT 03</div>
+          </div>
+
+          <div class="project-content">
+            <h3>Digital Project</h3>
+
+            <p>
+              A digital project created for online platforms.
+            </p>
+
+            <a href="#" class="project-link">
+              View Project →
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section dark-section">
+
+    <div class="container">
+
+      <div class="section-title">
+        <p>GET IN TOUCH</p>
+        <h2>Contact <span>Me</span></h2>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-info">
+
+          <h3>Let's Connect</h3>
+
+          <p>
+            Have an idea or want to connect?
+            Feel free to reach out.
+          </p>
+
+          <div class="contact-item">
+            <strong>📧 Email</strong>
+            <span>your@email.com</span>
+          </div>
+
+          <div class="contact-item">
+            <strong>📍 Location</strong>
+            <span>Bangladesh</span>
+          </div>
+
+        </div>
+
+
+        <form id="contactForm">
+
+          <input
+            type="text"
+            id="name"
+            placeholder="Your Name"
+            required
+          >
+
+          <input
+            type="email"
+            id="email"
+            placeholder="Your Email"
+            required
+          >
+
+          <textarea
+            id="message"
+            rows="6"
+            placeholder="Your Message"
+            required
+          ></textarea>
+
+          <button type="submit" class="btn primary">
+            Send Message
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+
+    <div class="container">
+
+      <h3>MD Atik Hossan Apple</h3>
+
+      <p>
+        Dream • Create • Inspire
+      </p>
+
+      <div class="social-links">
+        <a href="#" target="_blank">Facebook</a>
+        <a href="#" target="_blank">Instagram</a>
+        <a href="#" target="_blank">TikTok</a>
+        <a href="#" target="_blank">GitHub</a>
+      </div>
+
+      <p class="copyright">
+        © <span id="year"></span> MD Atik Hossan Apple. All Rights Reserved.
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
